@@ -1,8 +1,13 @@
-n2 = 0
-n3 = 0
-n4 = 0
-n5 = 0
-for c in range(1, 2+1):
-    n1 = float(input('Digite seu peso: '))
-    if n1 > n1:
-      print('GORDO')
+maior = 0
+menor = 0
+for p in range(1, 6):
+    peso = float(input(f'Digite o peso da {p}ª pessoa: '))
+    if p == 1:
+        maior = peso
+        menor = peso
+    else:
+        if peso > maior:
+            maior = peso
+        if peso < menor:
+            menor = peso
+print(f'O maior peso é {maior} e o menor peso é {menor}')
