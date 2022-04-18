@@ -1,7 +1,0 @@
-n1 = int(input('Digite um numero '))
-n2 = int(input('Digite um numero '))
-n3 = int(input('Digite um numero '))
-n4 = int(input('Digite um numero '))
-numeros = (n1, n2, n3, n4)
-print(numeros)
-print(f'O número 9 apareceu {numeros.count(1)} vezes')
