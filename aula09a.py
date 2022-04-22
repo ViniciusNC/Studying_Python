@@ -1,0 +1,7 @@
+frase = ('Curso em Video Python')
+print(f'Fatiando a frase: {frase[9:21:3]}')
+print(f'Esse é o número de vezes que aparece a letra -o- em sua frase: {frase.count("o", 0, 13)}')
+print(f'O tamanho da sua frase é: {len(frase)}')
+print(f'A palavra DEO começou na seguinte casa : {frase.find("deo")}')
+print(f'Existe a palavra Curso na sua frase?: {"Curso" in frase}')
+print(f'Substitua a palavra Python por Android: {frase.replace("Python", " ")}')
